@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lora');
+body {
+  background: url('/images/lukas-blazek-261681.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background: #06beb6;
+  background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);
+  background: linear-gradient(to right, #48b1bf, #06beb6); */
+
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.snap-shot {
+  position: relative;
+}
+
+.polaroid-text {
+  color: #fff;
+  font-family: 'Lora', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.img-responsive {
+  border-right: 5px solid #fff;
+  border-left: 5px solid #fff;
+  border-top: 5px solid #fff;
+  border-bottom: 20px solid #fff;
+  height: 300px;
+  margin: 0 auto;
+
+}
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h1,
+h2,
+footer {
+  text-align: center;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
